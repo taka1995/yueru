@@ -1,6 +1,6 @@
-from SQLAlchemy import create_engine
-from SQLAlchemy.orm import scoped_session, sessionmaker
-from SQLAlchemy.ext.declarative import declarative_base
+from sqlalchemy import create_engine
+from sqlalchemy.orm import scoped_session, sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 import os
 
 databese_file = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'onegai.db')
