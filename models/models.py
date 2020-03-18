@@ -3,8 +3,8 @@ from models.database import Base
 from datetime import datetime
 
 
-class yamiyamiContent(Base):
-    __tablename__ = 'yamiyamicontents'
+class onegaiContent(Base):
+    __tablename__ = 'onegaicontents'
     id = Column(Integer, primary_key=True)
     title = Column(String(128), unique=True)
     body = Column(Text)
